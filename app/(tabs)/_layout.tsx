@@ -8,9 +8,9 @@ export default function TabLayout() {
         headerShown: false,
         tabBarStyle: {
           backgroundColor: '#90EE90',
-          height: 0, // I successfully hid using this.
+          height: 0, // Hidden tab bar
         },
-        tabBarShowLabel: false, // Ensure it only shows labels/icons
+        tabBarShowLabel: false,
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Home' }} />
