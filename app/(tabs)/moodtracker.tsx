@@ -38,7 +38,7 @@ const EmotionAnalysis: React.FC = () => {
 
   return (
     <SafeAreaView style={{ flex: 1, padding: 16 }}>
-      <Text style={{ fontSize: 24, fontWeight: 'bold', textAlign: 'center' }}>Emotion Tracker</Text>
+      <Text style={{ fontSize: 24, fontWeight: 'bold', textAlign: 'center' }}>Mood Tracker</Text>
 
       <Text style={{ fontSize: 18, textAlign: 'center', marginVertical: 16 }}>
         Swipe the color for each emotion
