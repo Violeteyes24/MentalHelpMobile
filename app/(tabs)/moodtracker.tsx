@@ -60,11 +60,13 @@ const EmotionAnalysis: React.FC = () => {
         </View>
       ))}
 
-      <View style={{ flex: 1, justifyContent: 'center', marginVertical: 20 }}>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <PieChart widthAndHeight={widthAndHeight} series={series} />
+      <View style={{ marginTop: '5%', alignItems: 'center' }}>
+        <Button title="See Results" onPress={() => { }} color="#34d399" />
+      </View>
       </View>
 
-      <Button title="See Results" onPress={() => { }} color="#34d399" />
     </SafeAreaView>
   );
 };

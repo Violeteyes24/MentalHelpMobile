@@ -13,6 +13,10 @@
 7. Log out functionality
 8. Home page will consist of "mood score this week" and "upcoming appointments"
 
+# Notes:
+
+- `npm cache clean --force (very important command in case Mentro Bundler is ready but localhost will refuse to connect)`
+
 
 
 

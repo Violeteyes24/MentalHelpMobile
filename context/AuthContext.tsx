@@ -26,3 +26,13 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
         checkSession();
     },)}
+/*
+
+Important functions:
+
+1. handleSignUp
+2. handleSignIn  
+3. handleSendMagicLink
+4. handleLogOut
+
+*/
